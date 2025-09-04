@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>New Registration</title>
+  <link rel="stylesheet" href="mu.css">
+</head>
+<body>
+  <div class="form-container">
+    <h2>New Registration</h2>
+    <form action="Mu" method="post">
+      <div class="row">
+        <div class="col">
+          <label>First Name<span>*</span></label>
+          <input type="text" name="firstName" required>
+        </div>
+        <div class="col">
+          <label>Last Name / Surname<span>*</span></label>
+          <input type="text" name="lastName" required>
+        </div>
+      </div>
+
+      <div class="row relation-type">
+        <label>Relation Type<span>*</span></label>
+        <div>
+          <input type="radio" name="relation" value="Son" required> Son
+          <input type="radio" name="relation" value="Daughter"> Daughter
+          <input type="radio" name="relation" value="Wife"> Wife
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <label>Mother's First Name<span>*</span></label>
+          <input type="text" name="motherName" required>
+        </div>
+        <div class="col">
+          <label>Father's / Husband's First Name<span>*</span></label>
+          <input type="text" name="fatherHusbandName" required>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <label>Date of Birth<span>*</span></label>
+          <input type="date" name="dob" required>
+        </div>
+      </div>
+
+      <div class="row gender">
+        <label>Gender<span>*</span></label>
+        <div>
+          <input type="radio" name="gender" value="Male" required> Male
+          <input type="radio" name="gender" value="Female"> Female
+          <input type="radio" name="gender" value="Transgender"> Transgender
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <label>Mobile Number<span>*</span></label>
+          <div class="mobile-box">
+            <input type="text" name="mobile" maxlength="1">
+            <input type="text" name="mobile" maxlength="1">
+            <input type="text" name="mobile" maxlength="1">
+            <input type="text" name="mobile" maxlength="1">
+            <input type="text" name="mobile" maxlength="1">
+            <input type="text" name="mobile" maxlength="1">
+            <input type="text" name="mobile" maxlength="1">
+            <input type="text" name="mobile" maxlength="1">
+            <input type="text" name="mobile" maxlength="1">
+            <input type="text" name="mobile" maxlength="1">
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <label>Confirm Mobile Number<span>*</span></label>
+          <div class="mobile-box">
+            <input type="text" name="confirmMobile" maxlength="1">
+            <input type="text" name="confirmMobile" maxlength="1">
+            <input type="text" name="confirmMobile" maxlength="1">
+            <input type="text" name="confirmMobile" maxlength="1">
+            <input type="text" name="confirmMobile" maxlength="1">
+            <input type="text" name="confirmMobile" maxlength="1">
+            <input type="text" name="confirmMobile" maxlength="1">
+            <input type="text" name="confirmMobile" maxlength="1">
+            <input type="text" name="confirmMobile" maxlength="1">
+            <input type="text" name="confirmMobile" maxlength="1">
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <label>Email ID<span>*</span></label>
+          <input type="email" name="email" required>
+        </div>
+      </div>
+
+      <p class="terms">Please click on “ACCEPT” to read and agree to our terms and conditions.<br>
+      विद्यापीठाच्या अटी व शर्ती मान्य करण्यासाठी “ACCEPT” बटनवर क्लिक करा.</p>
+
+      <button type="submit" class="accept-btn">Accept</button>
+    </form>
+  </div>
+
+
+</body>
+</html>
