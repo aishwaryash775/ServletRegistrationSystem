@@ -98,7 +98,7 @@ Use Edit or Delete in the Action column to manage records.
 ## 📸 Screenshots
 
 ### 📝 Registration Page
-![Registration Form](screenshots/registration.png)
+![Registration Form](screenshots/Registration.png)
 
 ### ✅ Registration Successful
 ![Success Page](screenshots/registration_successfull.png)
