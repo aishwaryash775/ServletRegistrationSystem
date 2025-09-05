@@ -38,11 +38,11 @@ ServletRegistrationSystem/
 │ ├── success.html # Success page with link to View Users
 │ ├── mu.css # Stylesheet
 │
-└── screenshots/ # Project screenshots
+└── screenshot/ # Project screenshots
 ├── registration.png
-├── registration_successfull.png
-├── View_users_table.png
-└── Edit_users.png
+├── registrationsuccessfull.png
+├── viewuserstable.png
+└── editusers.png
 
 ## ⚙️ Setup Instructions
 
@@ -50,7 +50,7 @@ Follow these steps to run the project:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/aishwaryash775/ServletRegistrationSystem.git
+   git clone [https://github.com/aishwaryash775/ServletRegistrationSystem.git](https://github.com/aishwaryash775/ServletRegistrationSystem.git)
 Open in NetBeans
 
 File → Open Project → Select ServletRegistrationSystem
