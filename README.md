@@ -98,16 +98,16 @@ Use Edit or Delete in the Action column to manage records.
 ## 📸 screenshot
 
 ### 📝 Registration Page
-![Registration Form](screenshots/registration.png)
+![Registration Form](screenshot/registration.png)
 
 ### ✅ Registration Successful
-![Success Page](screenshots/registrationsuccessfull.png)
+![Success Page](screenshot/registration.png)
 
 ### 📊 View Registered Users
-![Users Table](screenshots/viewuserstable.png)
+![Users Table](screenshot/viewuserstable.png)
 
 ### ✏️ Edit User
-![Edit User Form](screenshots/editusers.png)
+![Edit User Form](screenshot/editusers.png)
 
 ✏️ Edit User
 
