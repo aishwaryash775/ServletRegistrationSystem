@@ -95,7 +95,7 @@ Go to View Users to see all registered users.
 Use Edit or Delete in the Action column to manage records.
 
 📸 Screenshots
-## 📸 Screenshots
+## 📸 screenshot
 
 ### 📝 Registration Page
 ![Registration Form](screenshots/registration.png)
